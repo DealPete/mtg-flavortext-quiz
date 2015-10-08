@@ -1,8 +1,55 @@
+@font-face {
+	font-family: "Beleren";
+	src: url('/beleren-bold-webfont.ttf');
+}
+
 body {
-  padding: 50px;
+	background: url('http://i.imgur.com/1x4MPJ4.jpg');
+	background-size: cover;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#wrapper {
+	position:absolute;
+	top: 10px;
+}
+
+#result {
+	font-size: 50px;
+	padding-bottom: 20px;
+	font-family: Impact;
+	text-align: center;
+}
+
+#flavor {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+#buttons {
+	border: 5px solid black;
+	padding: 20px 0 20px 30px;
+	background: white;
+	color: black;
+	border-radius: 20px;
+	opacity: 0.6;
+}
+
+.radio {
+	margin: 20px;
+}
+
+.wrap {
+	font-family: Beleren;
+	font-size: 25px;
+}
+
+button {
+	width: 90%;
+}
+
+h2 {
+	margin: 40px;
+	text-align: center;
+	font-size: 40px;
 }

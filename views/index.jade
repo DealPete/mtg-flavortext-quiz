@@ -1,5 +1,24 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	link(href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', rel='stylesheet')
+
+	.container
+		.col-md-4
+			#wrapper
+				#result
+				img
+		.col-md-4
+			h1 What card has this flavortext?
+			#flavor 
+			#buttons
+				.wrap
+					button#card0
+				.wrap
+					button#card1
+				.wrap
+					button#card2
+				.wrap
+					button#card3
+		.col-md-4
+			h2

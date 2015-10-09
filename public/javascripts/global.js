@@ -1,4 +1,4 @@
-streak_length = 0;
+var streak_length = 0;
 var cards = {};
 
 $(document).ready( function() {
